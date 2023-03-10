@@ -1,1 +1,2 @@
-# praktek1-dht-thingspeak
+Praktek 1
+Monitoring sensor suhu dan kelembapan udara dengan ThingSpeak
