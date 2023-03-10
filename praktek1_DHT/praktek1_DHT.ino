@@ -7,11 +7,11 @@
 ESP8266WiFiMulti WiFiMulti;
 WiFiClient client;
 
-unsigned long myChannelNumber = 2059413;
-const char * myWriteAPIKey = "4T5DK4WS1K7RUBV5";
-
-const char* ssid = "PoltekHarber";   // your network SSID (name) 
-const char* password = "poltekharber";   // your network password
+unsigned long myChannelNumber = 2060361;
+const char * myWriteAPIKey = "F2EI4OS6E8RUOSWQ";
+//
+//const char* ssid = "PoltekHarber";   // your network SSID (name) 
+//const char* password = "poltekharber";   // your network password
 
 // Timer variables
 unsigned long lastTime = 0;
@@ -29,7 +29,7 @@ void setup() {
   Serial.begin(115200);
 
   WiFi.mode(WIFI_STA);
-  WiFiMulti.addAP("Bas", "12345678"); // Sesuaikan SSID dan password ini
+  WiFiMulti.addAP("PoltekHarber", "poltekharber"); // Sesuaikan SSID dan password ini
 
   Serial.println();
   
