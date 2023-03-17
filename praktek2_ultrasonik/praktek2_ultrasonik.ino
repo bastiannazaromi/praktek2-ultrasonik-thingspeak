@@ -18,6 +18,8 @@ unsigned long lastTime = 0;
 unsigned long timerDelay = 20000;
 
 // Sensor Ultrasonik
+#define echoPin D7
+#define trigPin D8
 
 void setup() {
   Serial.begin(115200);
